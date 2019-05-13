@@ -5,10 +5,14 @@
 
     <div class="quick-description"> 
       <h1> Hello!! </h1>
-      My name is Cam,   
+      My name is Cam, 
       I am a software Developer living in Chicago.
-      I code to build things I like. Learn more about me here.
+      Along with programming, I also like to run, read, 
+      and work with robotics. If you would like to 
+      know more about me click 
+      <router-link to="/about"> here</router-link>.
     </div>
+
     <div class="quick-description"> 
       <h1> Projects </h1>
       I like to grow my skills by building things that I 
@@ -16,8 +20,8 @@
     </div>
     <div class="quick-description"> 
       <h1> Skills </h1>
-      I have yet to write any blog posts. 
-      This is section is a hopeful one for me.
+      After being a Developer some years. I have learned
+      some technical and soft-skills learn more here.
     </div>
   </div>
 </template>
