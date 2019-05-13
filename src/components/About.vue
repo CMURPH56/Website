@@ -38,7 +38,7 @@
         In the Fall of 2018 I applied to be a mentor with Chicago Python Users Group.
         The program takes someone who is more experienced in programming and pairs them 
         with someone who wants to learn more in a project based environment. The project
-        I worked on was connected a Raspberry Pi to a cars OBDII port to get real time 
+        I worked on was connecting a Raspberry Pi to a cars OBDII port to get real time 
         data sent to a React Website hosted on Heroku. We went on to win the competition that
         season.
       </p>
