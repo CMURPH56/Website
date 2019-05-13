@@ -77,7 +77,7 @@
   margin-right: auto;
 }
 .content h1 {
-  color: purple;
+  color: white;
 }
 img {
   height: auto;

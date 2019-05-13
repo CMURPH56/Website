@@ -27,17 +27,21 @@
   flex-wrap: wrap;
   justify-content: flex-end;
 }
+.navbar a{
+  text-decoration: none;
+  color: white;
+}
 .noDecoration {
     text-decoration: none;
     text-decoration-color:currentColor;
-    color: purple;
+    color: white;
 }
 .navbar div {
   text-decoration: none !important;
   font: 'verdana';
   font-weight: bold;
   font-size: 20px;
-  color: purple;
+  color: white;
   padding: 14px;
 
 }

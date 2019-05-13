@@ -11,7 +11,7 @@
 
 <style>
 html {
-  background: black;
+  background: #444444;
 }
 #app {
   font-family: 'Verdana', Helvetica, Arial, sans-serif;
