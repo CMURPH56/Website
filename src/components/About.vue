@@ -5,7 +5,7 @@
 
       <h1> About Me</h1>
       <p>
-        Originaly from a small town in Southern New Hampshire. 
+        Originally from a small town in southern New Hampshire. 
         I moved to Chicago to study at Depaul University.
       </p>
       <img src="./cam.jpg" />
@@ -39,7 +39,7 @@
         The program takes someone who is more experienced in programming and pairs them 
         with someone who wants to learn more in a project based environment. The project
         I worked on was connecting a Raspberry Pi to a cars OBDII port to get real time 
-        data sent to a React Website hosted on Heroku. We went on to win the competition that
+        data sent to a <a href='https://github.com/krum04/OBD2-Cloud-Connect-Client'>React Website</a> hosted on Heroku. We went on to win the competition that
         season.
       </p>
       <h1> Side Projects </h1>
@@ -51,6 +51,13 @@
         I also like to work on smaller home projects with Raspberry Pi's
         or Arduinos. 
       </p>
+      <h1> Outside of Work </h1>
+      <img src="./cloudy.jpg"/>
+      <div> 
+        Outside of work, I am part of my companies run club, and I am training for a Marathon. 
+        I like to read anything from non-fiction to Science Fiction. I have recently 
+        adopted a pet cat.
+      </div>
     </div>
   </section>
 </template>
