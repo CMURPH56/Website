@@ -27,7 +27,7 @@
 }
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   .Hero h1{
-      padding-top: 10vh;
+          padding-top: 10vh;
   }
   
 }
