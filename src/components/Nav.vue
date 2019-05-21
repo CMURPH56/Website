@@ -16,9 +16,24 @@
 </nav>
 </template>
 
+<script>
+  export default  {
+    methods: {
+     fixedNav(){
+      var navbar = document.getElementsById("navbar")
+      var sticky = navbar.offsetTop;
+      if ( window.pageYOffset >= sticky ){
+        navbar.classList.add("sticky")
+      }
+      else {
+        navbar.classlist.remove("sticky")
+      }
+    }
+    }
+  }
+</script>
 
 <style>
-
 .navbar ul{
   text-decoration: none !important;
   display: flex;

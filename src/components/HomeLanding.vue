@@ -37,12 +37,8 @@ export default {
   name: 'HelloWorld',
   props: {
     msg: String
-  },
-  methods : {
-    stickyNav:function() {
-      const navbar = document.getElementById('navbar')
-    }
   }
+  
 }
 
   
