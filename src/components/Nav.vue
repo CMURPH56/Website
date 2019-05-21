@@ -1,5 +1,5 @@
 <template> 
-<nav class="navbar">
+<nav id="navbar" class="navbar">
     <ul>
         <div  class="name">
           <router-link class="noDecoration" to="/">Cam Murphy </router-link>    
@@ -18,6 +18,9 @@
 
 <script>
   export default  {
+    mounted :function() {
+      this.fixedNav();
+    },  
     methods: {
      fixedNav(){
       var navbar = document.getElementsById("navbar")
