@@ -37,8 +37,15 @@ export default {
   name: 'HelloWorld',
   props: {
     msg: String
+  },
+  methods : {
+    stickyNav:function() {
+      const navbar = document.getElementById('navbar')
+    }
   }
 }
+
+  
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
