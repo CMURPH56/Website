@@ -20,8 +20,6 @@
     </div>
     <div class="quick-description"> 
       <h1> Skills </h1>
-      After being a Developer some years. I have learned
-      some technical and soft-skills learn more here.
     </div>
   </div>
 </template>
@@ -34,17 +32,13 @@ export default {
     Nav,
     Hero
   },
-  name: 'HelloWorld',
-  props: {
-    msg: String
+    name: 'HelloWorld',
+    props: {
+      msg: String
+    }
   }
-  
-}
-
-  
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .hello{
   margin-top: 2vh;
@@ -64,5 +58,4 @@ export default {
     width: 100%;
   }
 }
-
 </style>

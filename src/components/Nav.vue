@@ -8,7 +8,7 @@
            <router-link class="noDecoration" to="/About">About</router-link>  
         </div>
         <div> 
-          <a href="./resume.pdf">Resume</a>
+          <a target="_blank" href="resume.pdf">Resume</a>
         </div>
         <div>
         </div>
@@ -58,7 +58,7 @@
   text-decoration: none !important;
   font: 'verdana';
   font-weight: bold;
-  font-size: 20px;
+  font-size: 16px;
   color: white;
   padding: 14px;
 
