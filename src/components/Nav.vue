@@ -8,7 +8,7 @@
            <router-link class="noDecoration" to="/About">About</router-link>  
         </div>
         <div> 
-          <a target="_blank" href="resume.pdf">Resume</a>
+          <a target="_blank" href="./resume.pdf">Resume</a>
         </div>
         <div>
         </div>
