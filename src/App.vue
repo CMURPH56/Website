@@ -1,7 +1,6 @@
 <template>
   <div id="app">
     <div id="nav">
-      <HelloWorld />
       <router-link to="/"></router-link>
       <router-link to="/About"></router-link>
     </div>

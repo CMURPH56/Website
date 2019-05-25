@@ -3,12 +3,6 @@
     <Nav />
     <div class='content'>
 
-      <h1> About Me</h1>
-      <p>
-        Originally from a small town in southern New Hampshire. 
-        I moved to Chicago to study at Depaul University.
-      </p>
-      <img src="./cam.jpg" />
       <h1> College </h1>
       <p>
         I was initially a Physics Major. However, After a few years in the Physics program. I realized, I wanted 
@@ -51,13 +45,6 @@
         I also like to work on smaller home projects with Raspberry Pi's
         or Arduinos. 
       </p>
-      <h1> Outside of Work </h1>
-      <img src="./cloudy.jpg"/>
-      <div> 
-        Outside of work, I am part of my companies run club, and I am training for a Marathon. 
-        I like to read anything from non-fiction to Science Fiction. I have recently 
-        adopted a pet cat.
-      </div>
     </div>
   </section>
 </template>

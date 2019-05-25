@@ -23,13 +23,13 @@
     },  
     methods: {
      fixedNav(){
-      var navbar = document.getElementsById("navbar")
+      var navbar = document.getElementById("navbar")
       var sticky = navbar.offsetTop;
       if ( window.pageYOffset >= sticky ){
         navbar.classList.add("sticky")
       }
       else {
-        navbar.classlist.remove("sticky")
+        navbar.classList.remove("sticky")
       }
     }
     }

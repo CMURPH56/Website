@@ -21,6 +21,7 @@
     <div class="quick-description"> 
       <h1> Skills </h1>
     </div>
+    
   </div>
 </template>
 
