@@ -1,42 +1,26 @@
 <template> 
-<nav id="navbar" class="navbar">
+  <div id="navbar" class="navbar">
     <ul>
-        <div  class="name">
-          <router-link class="noDecoration" to="/">Cam Murphy </router-link>    
-        </div>
-        <div>
-           <router-link class="noDecoration" to="/About">About</router-link>  
-        </div>
-        <div> 
-          <a target="_blank" href="./resume.pdf">Resume</a>
-        </div>
-        <div>
-        </div>
+      <div class="name">
+        <router-link class="noDecoration" to="/">Cam </router-link>    
+      </div>
+      <div>
+        <router-link class="noDecoration" to="/About">About</router-link>  
+      </div>
+      <div> 
+        <a target="_blank" href="./resume.pdf">Resume</a>
+      </div>
     </ul>
-</nav>
+  </div>
 </template>
 
-<script>
-  export default  {
-    mounted :function() {
-      this.fixedNav();
-    },  
-    methods: {
-     fixedNav(){
-      var navbar = document.getElementById("navbar")
-      var sticky = navbar.offsetTop;
-      if ( window.pageYOffset >= sticky ){
-        navbar.classList.add("sticky")
-      }
-      else {
-        navbar.classList.remove("sticky")
-      }
-    }
-    }
-  }
-</script>
-
 <style>
+.navbar{
+  position: sticky;
+  position: -webkit-sticky;
+  background-color: #444444;
+  top: 0;
+}
 .navbar ul{
   text-decoration: none !important;
   display: flex;

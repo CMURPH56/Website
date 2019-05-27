@@ -1,7 +1,7 @@
 <template>
   <section>
     <Nav />
-    <div class='content'>
+    <div class='content' />
   </section>
 </template>
 
