@@ -1,27 +1,8 @@
 <template>
   <div class="hello">
     <Nav />
-    <Hero />
-
-    <div class="quick-description"> 
-      <h1> Hello!! </h1>
-      My name is Cam, 
-      I am a software Developer living in Chicago.
-      Along with programming, I also like to run, read, 
-      and work with robotics. If you would like to 
-      know more about me click 
-      <router-link to="/about"> here</router-link>.
-    </div>
-
-    <div class="quick-description"> 
-      <h1> Projects </h1>
-      I like to grow my skills by building things that I 
-      like. See some of my favorite projects here. 
-    </div>
-    <div class="quick-description"> 
-      <h1> Skills </h1>
-    </div>
-    
+    <h1> Cam Murphy </h1>
+    <h3>  Software Developer </h3>
   </div>
 </template>
 
@@ -52,7 +33,14 @@ export default {
   font-size: 18px;
 }
 .hello h1{
-  color:white;
+  padding-top: 20vh;  
+  margin: 0;
+  font-size: 80px;
+  color: white 
+}
+.hello h3{
+  color: white;
+  font-size: 40px;
 }
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   .quick-description {
