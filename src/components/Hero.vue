@@ -7,7 +7,6 @@
 
 <style>
 .Hero{
-  background-image: url('../assets/chicago.jpg');
   background-size: cover;
   resize: both;
   background-repeat: no-repeat;

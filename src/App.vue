@@ -9,8 +9,18 @@
 </template>
 
 <style>
-html {
-  background: #444444;
+
+body{
+    background-image: url('./assets/chicago.jpg');
+    background-size: cover;
+    background-size: cover;
+  resize: both;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 75vh;
+  max-width: 100%;
+
+
 }
 #app {
   font-family: 'Verdana', Helvetica, Arial, sans-serif;

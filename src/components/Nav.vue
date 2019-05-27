@@ -7,6 +7,9 @@
       <div>
         <router-link class="noDecoration" to="/About">About</router-link>  
       </div>
+      <div>
+        <router-link class="noDecoration" to="#">Projects</router-link>
+        </div>
       <div> 
         <a target="_blank" href="./resume.pdf">Resume</a>
       </div>
@@ -18,7 +21,6 @@
 .navbar{
   position: sticky;
   position: -webkit-sticky;
-  background-color: #444444;
   top: 0;
 }
 .navbar ul{
