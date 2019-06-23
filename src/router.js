@@ -17,6 +17,16 @@ export default new Router({
       path: '/About',
       name: 'About',
       component: () => import( './components/About.vue')
+    },
+    {
+      path: '/Blogs',
+      name: 'Blogs',
+      component: () => import( './components/Blogs.vue')
+    },
+    {
+      path: '/Blogs/RouterLinkArticle',
+      name: 'RouterLinkArticle',
+      component: () => import( './Blogs/RouterLinkArticle.vue')
     }
   ]
 })

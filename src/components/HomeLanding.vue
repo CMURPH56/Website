@@ -3,16 +3,17 @@
     <Nav />
     <h1> Cam Murphy </h1>
     <h3>  Software Developer </h3>
+    <Footer />
   </div>
 </template>
 
 <script>
 import Nav from './Nav.vue'
-import Hero from './Hero.vue'
+import Footer from './Footer.vue'
 export default {
   components: {
     Nav,
-    Hero
+    Footer
   },
     name: 'HelloWorld',
     props: {

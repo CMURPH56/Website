@@ -7,6 +7,9 @@
       <div>
         <router-link class="noDecoration" to="/About">About</router-link>  
       </div>
+        <div>
+        <router-link class="noDecoration" to="/Blogs">Blogs</router-link>  
+      </div>
       <div>
         <router-link class="noDecoration" to="#">Projects</router-link>
         </div>
