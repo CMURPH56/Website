@@ -37,10 +37,8 @@ export default {
   padding-top: 20vh;  
   margin: 0;
   font-size: 80px;
-  color: white 
 }
 .hello h3{
-  color: white;
   font-size: 40px;
 }
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {

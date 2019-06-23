@@ -13,11 +13,9 @@
 <style>
 
 body{
-  background-image: url('./assets/chicago.jpg');
-  background-size: cover;
-  resize: both;
-  background-repeat: no-repeat;
-  width: auto;
+
+  background-color:white;
+  width: auto; 
   height: auto;
   overflow: hidden;
 }
@@ -28,6 +26,6 @@ body{
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: white;
+  color:black;
 }
 </style>

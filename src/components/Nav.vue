@@ -36,19 +36,19 @@
 }
 .navbar a{
   text-decoration: none;
-  color: white;
+  color: black;
 }
 .noDecoration {
     text-decoration: none;
     text-decoration-color:currentColor;
-    color: white;
+    color: black;
 }
 .navbar div {
   text-decoration: none !important;
   font: 'verdana';
   font-weight: bold;
   font-size: 16px;
-  color: white;
+  color: black;
   padding: 14px;
 
 }
