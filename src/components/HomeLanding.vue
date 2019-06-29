@@ -7,21 +7,6 @@
   </div>
 </template>
 
-<script>
-import Nav from './Nav.vue'
-import Footer from './Footer.vue'
-export default {
-  components: {
-    Nav,
-    Footer
-  },
-    name: 'HelloWorld',
-    props: {
-      msg: String
-    }
-  }
-</script>
-
 <style scoped>
 .hello{
   margin-top: 2vh;
