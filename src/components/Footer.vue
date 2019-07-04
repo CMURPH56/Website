@@ -1,7 +1,11 @@
 <template>
   <footer>
-    <img src='../assets/github.svg'> 
-    <img src='../assets/linkedin.svg'>
+    <a href="https://github.com/cmurph56">
+      <img src='../assets/github.svg'> 
+    </a>
+    <a href="https://www.linkedin.com/in/cameron-murphy-9a9a2bb6/">
+      <img src='../assets/linkedin.svg'>
+    </a>
   </footer>
 </template>
 
