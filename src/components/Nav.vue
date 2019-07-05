@@ -11,7 +11,7 @@
         <router-link class="noDecoration" to="/Blogs">Blogs</router-link>  
       </div>
       <div>
-        <router-link class="noDecoration" to="#">Projects</router-link>
+        <router-link class="noDecoration" to="/Projects">Projects</router-link>
         </div>
       <div> 
         <a target="_blank" href="./resume.pdf">Resume</a>

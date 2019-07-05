@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Home from './components/HomeLanding.vue'
+
 
 Vue.use(Router)
 
@@ -22,6 +22,11 @@ export default new Router({
       path: '/Blogs',
       name: 'Blogs',
       component: () => import( './components/Blogs.vue')
+    },
+    {
+      path: '/Projects',
+      name: 'Projects',
+      component: () => import( './components/Projects.vue')
     },
     {
       path: '/Blogs/RouterLinkArticle',
