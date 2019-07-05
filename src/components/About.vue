@@ -1,18 +1,10 @@
 <template>
   <section>
-    <Nav />
     <div class='content' />
   </section>
 </template>
 
-<script>
-  import Nav from './Nav.vue'
-  export default {
-    components :{
-      Nav
-    }
-  }
-</script>
+
 <style>
 .content{
   width: 45%;
