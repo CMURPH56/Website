@@ -6,7 +6,7 @@
       This quiz application is made with Vue.js and 
       Firebase. Matches you to a classic horror 
       villian based off of your answers to  a
-      series of questions. <a href="camshorrorquiz.com">
+      series of questions. <a href="http://www.camshorrorquiz.com/">
         camshorrorquiz.com
       </a>
 
