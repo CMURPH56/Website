@@ -7,7 +7,7 @@
       <router-link to="/Blogs/RouterLinkArticle.vue"></router-link>
     </div>
     <Nav />
-    <router-view/>
+    <router-view id="router-view"/>
     <Footer />
   </div>
 </template>
@@ -30,10 +30,15 @@ body{
 
   background-color:white;
   width: auto; 
-  height: auto;
-  overflow: hidden;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
-
+#router-view {
+ min-height:100%; 
+ position:relative;
+ padding-bottom: 10vh;
+}
 #app {
   height:100%;
   font-family: 'Verdana', Helvetica, Arial, sans-serif;

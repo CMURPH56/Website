@@ -1,5 +1,8 @@
 <template>
   <section>
+
+    <div id= "first-project">
+      
       <h1> Cams Horror Quiz </h1>
 
     <p class="project-description">
@@ -12,7 +15,9 @@
 
     </p>
     <img class="website-clipping" src='../assets/camshorrorquiz.png'/>
-  </section>
+
+      </div>
+        </section>
 </template>
 
 

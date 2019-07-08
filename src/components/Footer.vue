@@ -12,13 +12,17 @@
 
 <style scoped>
 footer{
-  bottom:0;
-  width:100%;
-  height: 3rem;  
-  position:absolute;
-  overflow:hidden; 
-  padding-bottom: 25px;
-  background: darkgrey;
+    height:3vh; 
+    width: 100%; 
+    background-image: none;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    position: fixed;
+    bottom: 0pt;
+    left: 0pt;
+    background: darkgrey;
+    padding-bottom: 4vh;      
 }
 
 img{
