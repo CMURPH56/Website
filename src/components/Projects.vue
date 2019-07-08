@@ -1,23 +1,28 @@
 <template>
   <section>
-
-    <div id= "first-project">
-      
-      <h1> Cams Horror Quiz </h1>
-
-    <p class="project-description">
-      This quiz application is made with Vue.js and 
-      Firebase. Matches you to a classic horror 
-      villian based off of your answers to  a
-      series of questions. <a href="http://www.camshorrorquiz.com/">
-        camshorrorquiz.com
-      </a>
-
-    </p>
-    <img class="website-clipping" src='../assets/camshorrorquiz.png'/>
-
-      </div>
-        </section>
+    <div class= "project">
+      <h2> Cams Horror Quiz </h2>
+      <p class="project-description">
+        This quiz application is made with Vue.js and 
+        Firebase. Matches you to a classic horror 
+        villian based off of your answers to  a
+        series of questions. <a href="http://www.camshorrorquiz.com/">
+          camshorrorquiz.com
+        </a>
+      </p>
+      <img class="website-clipping" src='../assets/camshorrorquiz.png'/>
+    </div>
+    <diV class="project">
+      <h2> OBII Cloud Connect </h2>
+      <p class="project-description">
+        This application was created through <a href = "https://www.chipy.org/"> CHIPYS</a>
+        mentorship program. I volunteered to help build a react application that
+        would read data from firebase, which was populated by a Raspberry Pi, plugged into
+        the obdii port of the car.
+      </p>
+      <img class="website-clipping" src="../assets/chipy.jpeg" />
+    </diV>
+  </section>
 </template>
 
 
