@@ -1,31 +1,13 @@
 <template> 
 <section>
-  <div id="navbar" class="navbar">
-    <ul>
-      <div class="name">
-        <router-link class="noDecoration" to="/">Cam </router-link>    
-      </div>
-      <div>
-        <router-link class="noDecoration" to="/About">About</router-link>  
-      </div>
-        <div>
-        <router-link class="noDecoration" to="/Blogs">Blogs</router-link>  
-      </div>
-      <div>
-        <router-link class="noDecoration" to="/Projects">Projects</router-link>
-        </div>
-      <div> 
-        <a target="_blank" href="./resume.pdf">Resume</a>
-      </div>
-    </ul>
-    </div>
     <div class="hamburger">
       <label for="toggle">&#9776;</label>
       <input type="checkbox" id="toggle"/>
       <div class="menu">
-        <a href="#">test</a>
-        <a href="#">test</a>
-        <a href="#">test</a>
+        <router-link class="noDecoration" to="/">Cam</router-link>
+        <router-link class="noDecoration" to="/About">About</router-link>
+        <router-link class="noDecoration" to="/Blogs">Blogs</router-link>
+        <a target="_blank" href="./resume.pdf">Resume</a>
       </div>
   </div>
   </section>  
@@ -60,6 +42,9 @@ label {
   label {
     display: block;
     cursor: pointer;
+  }
+  .hamburger {
+    margin-left: 75%;
   }
   .menu {
     text-align: center;
