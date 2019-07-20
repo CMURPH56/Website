@@ -7,37 +7,35 @@
         <router-link class="noDecoration" to="/">Cam</router-link>
         <router-link class="noDecoration" to="/About">About</router-link>
         <router-link class="noDecoration" to="/Blogs">Blogs</router-link>
+        <router-link class="noDecoration" to="/Projects">Projects</router-link>
         <a target="_blank" href="./resume.pdf">Resume</a>
       </div>
   </div>
-  </section>  
+</section>  
 </template>
-
 <style>
-.nav {
-  border-bottom: 1px solid #eaeaeb;
-  text-align: right;
-  height: 70px;
-  line-height: 70px;
-}
+
 .menu{
   margin: 0 30px 0 0;
 }
 .menu a {
   text-decoration: none;
-  color: grey;
+  color: black;
   margin: 0 10px;
   line-height: 70px; 
+  font-size: 18px;
 }
+
 label {
   margin: 0 40px 0 0;
-  font-size: 26px;
+  font-size: 32px;
   line-height: 70px; 
   display: none; 
 }
 #toggle {
   display: none;  
 }
+
 @media only screen and (max-width: 500px) {
   label {
     display: block;
@@ -47,7 +45,7 @@ label {
     margin-left: 75%;
   }
   .menu {
-    text-align: center;
+    text-align: left;
     width: 100%;
     display: none;
   }
@@ -56,6 +54,9 @@ label {
     border-bottom: 1px solid #eaeaeb;
   }
   #toggle:checked + .menu {
+    position: absolute;
+    z-index: 100;
+    background: white;
     display:block;
   }
 }
