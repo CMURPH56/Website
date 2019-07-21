@@ -11,13 +11,7 @@
 .hello{
   margin-top: 2vh;
 }
-.quick-description{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
-  font-size: 18px;
-}
+
 .hello h1{
   padding-top: 20vh;  
   margin: 0;
@@ -29,6 +23,12 @@
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   .quick-description {
     width: 100%;
+  }
+  .hello {
+    margin-top: 0vh;
+  }
+  .hello h1{
+    padding-top: 5vh;
   }
 }
 </style>

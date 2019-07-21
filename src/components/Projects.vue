@@ -29,7 +29,7 @@
 <style>
 .project-description {
   color: black;
-  width: 33% !important;
+  width: 33% ;
   margin: 0 auto;
   font-size: 20px;
   padding-top: 1%;
@@ -39,6 +39,14 @@
   width: 30%;
   height: 30%;
 
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .project-description {
+    width: 100% ;
+  }
+  .website-clipping {
+    width: 100;
+  }
 }
 
 </style>
