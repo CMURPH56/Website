@@ -38,7 +38,6 @@
   padding-top: 3%;
   width: 30%;
   height: 30%;
-
 }
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   .project-description {
@@ -48,5 +47,4 @@
     width: 100;
   }
 }
-
 </style>
